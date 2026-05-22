@@ -167,6 +167,7 @@ jobs:
       - name: Install Python Dependencies
         run: |
           pip install -r requirements.txt --break-system-packages
+          pip install dirsearch --break-system-packages
 
       - name: Build Knowledge Base
         run: |
